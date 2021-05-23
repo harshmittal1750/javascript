@@ -1,24 +1,22 @@
-function getUserRole(name, role) {
-  switch (role) {
-    case "admin":
-      return `hello ${name} You have full access`;
+var user = "admin";
+switch (user) {
+  case "admin":
+    console.log("You have full access");
 
-      break;
-    case "subadmin":
-      return `hello ${name} You have partial access`;
+    break;
+  case "subadmin":
+    console.log("You have partial access");
 
-      break;
-    case "moderator":
-      return `hello ${name} You have access for moderating user`;
+    break;
+  case "moderator":
+    console.log("You have access for moderating users");
 
-      break;
-    case "user":
-      return `hello ${name} You have access to read only`;
+    break;
+  case "user":
+    console.log("You have access to read only");
 
-      break;
+    break;
 
-    default:
-      break;
-  }
+  default:
+    break;
 }
-console.log(getUserRole("harsh", "moderator"));
