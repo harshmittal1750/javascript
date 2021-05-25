@@ -1,1 +1,0 @@
-console.log(newArray.fill("empty", 2, 3));
