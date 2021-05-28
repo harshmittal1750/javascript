@@ -5,3 +5,7 @@ while (i < states.length) {
   console.log(states[i]);
   i++;
 }
+do {
+  console.log(states[i]);
+  i++;
+} while (i < states.length);
