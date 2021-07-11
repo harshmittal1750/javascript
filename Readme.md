@@ -1,5 +1,5 @@
 # javascript
 
-# You too can contribute
+## You too can contribute
 
-# Basically its for learning purpose
+### Basically its for learning purpose
