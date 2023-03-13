@@ -1,3 +1,3 @@
-(function () {
-  console.log("heelo");
+(function iife() {
+  console.log("IIFE");
 })();
